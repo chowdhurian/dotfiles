@@ -1,6 +1,9 @@
 # When you type ls in the command line, bash runs ls -FGash to make the result more readable.
 alias ls='ls -FGash'
 
+# When you type ll in the command line, bash runs ls -al
+alias ll='ls -al'
+
 # add ~/bin to your load path. bash looks at the PATH variable to locate command line programs
 export PATH=$PATH:$HOME/bin
 export TERM="xterm-256color"
