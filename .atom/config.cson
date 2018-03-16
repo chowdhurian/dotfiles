@@ -1,0 +1,36 @@
+"*":
+  core:
+    disabledPackages: [
+      "metrics"
+      "jshint"
+      "spell-check"
+      "github"
+      "react"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "ffc60d6a-05ea-8a3d-15d6-0bfc144af718"
+  jshint:
+    supportLintingJsx: true
+  "linter-eslint": {}
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
+  minimap: {}
+  "one-light-ui": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 9
+    neverCloseDirty: true
+    neverCloseNew: true
+    neverCloseUnsaved: true
