@@ -1,11 +1,11 @@
 "*":
+  "atom-package-deps":
+    ignored: []
   core:
     disabledPackages: [
       "metrics"
       "jshint"
-      "spell-check"
       "github"
-      "react"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -13,13 +13,15 @@
       "base16-tomorrow-dark-theme"
     ]
   editor:
-    fontSize: 15
+    fontSize: 16
     invisibles: {}
     showIndentGuide: true
   "exception-reporting":
     userId: "ffc60d6a-05ea-8a3d-15d6-0bfc144af718"
   jshint:
     supportLintingJsx: true
+  linter:
+    lintPreviewTabs: false
   "linter-eslint": {}
   "linter-ui-default":
     panelHeight: 69
