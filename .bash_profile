@@ -1,3 +1,7 @@
+#########
+# Aliases
+#########
+
 # When you type ls in the command line, bash runs ls -FGash to make the result more readable.
 alias ls='ls -FGash'
 
@@ -34,11 +38,6 @@ source $(brew --prefix nvm)/nvm.sh
 
 # from console during rvm installation via curl
 source ~/.profile
-
-# for android
-export ANDROID_HOME=/Users/Beastie/Library/Android/sdk
-export PATH=$ANDROID_HOME/platform-tools:$PATH
-export PATH=$ANDROID_HOME/tools:$PATH
 
 # for tiny-care-terminal
 # List of accounts to read the last tweet from, comma separated
