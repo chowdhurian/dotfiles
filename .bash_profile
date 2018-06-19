@@ -25,14 +25,8 @@ fi
 # fi
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\] \[\033[33;1m\]\w\[\033[m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)) \$ "
 
-# installed nvm via homebrew, console said:
-# Add the following to ~/.bash_profile or your
-# desired shell configuration file:
-# export NVM_DIR="$HOME/.nvm"
-# . "$(brew --prefix nvm)/nvm.sh"
-# alternative:
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+# nvm
+source ~/.bashrc
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
