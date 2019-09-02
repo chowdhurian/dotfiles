@@ -1,3 +1,4 @@
+# for installing npm packages from cache
 alias npmoffline="npm --cache-min 9999999 " # follow with `install <package-I-already-installed>` to install from cache
 
 # nvm
