@@ -3,7 +3,7 @@
 	smudge = git hawser smudge %f
 	required = true
 [user]
-	name = Chowdhurian
+	name = Manil Chowdhury
 	email = manil.chowdhury@gmail.com
 [filter "lfs"]
 	required = true
