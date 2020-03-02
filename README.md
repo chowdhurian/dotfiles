@@ -1,5 +1,16 @@
 # dotfiles
 
+Contains configuration for:
+
+* bash
+* vscode
+* hammerspoon
+* hyper
+* nvm
+* git
+* atom
+* npm
+
 ## use
 
 1. Clone the repo into where you'd like it to live.
