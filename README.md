@@ -29,3 +29,6 @@ Assuming you cloned the repo into the `development` directory:
 
 Most other dotfiles live in `~`
 
+## Other MacOS settings
+
+Realistically, unless I drop [this gist](https://gist.github.com/keywordnew/d28529f3d5a4e8fcc40ec5f3306c65ab) here, I won't remember to tweak these MacOS settings.
