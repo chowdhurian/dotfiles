@@ -8,3 +8,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # display `pwd` in terminal emulator title
 PROMPT_COMMAND='echo -ne "\033]0;${PWD}\007"'
+
+# heroku autocomplete setup
+HEROKU_AC_BASH_SETUP_PATH=/Users/manil/Library/Caches/heroku/autocomplete/bash_setup && test -f $HEROKU_AC_BASH_SETUP_PATH && source $HEROKU_AC_BASH_SETUP_PATH;
